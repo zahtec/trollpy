@@ -1,0 +1,18 @@
+name: Build and Publish to PyPi
+on:
+    release:
+        types: [published]
+jobs:
+    run:
+        runs-on: ubuntu-latest
+        env:
+            PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+        steps:
+            - uses: actions/checkout@v3
+            - uses: actions/setup-python@v4
+              with:
+                  python-version: '3.10'
+            - name: Build and Publish to PyPi
+              run: curl -sSL https://install.python-poetry.org | python - --preview
+            - run: poetry build -f wheel
+            - run: poetry publish -u __token__ -p $PYPI_TOKEN
