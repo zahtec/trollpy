@@ -1,0 +1,32 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "trollpy"
+version = "0.1.0"
+description = "A Python library for overriding functions/classes and trolling others"
+authors = ["zahtec"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/zahtec/trollpy"
+repository = "https://github.com/zahtec/trollpy"
+documentation = "https://github.com/zahtec/trollpy/wiki"
+keywords = [
+    "troll",
+    "trolling",
+    "override",
+    "overriding"
+]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Natural Language :: English"
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/zahtec/trollpy/issues"
+
+[tool.poetry.dependencies]
+python = "^3.10"
