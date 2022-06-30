@@ -1,1 +1,0 @@
-from .troll import print

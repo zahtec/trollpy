@@ -32,10 +32,10 @@ Make sure to import this at the bottom of any import list in order to confirm th
 import numpy as np
 from cv2 import imshow
 from PIL.Image import open
-from builtins import open # Overrides Pillow's import
+from builtin import open # Overrides Pillow's import
 ```
 
-Also, this library is imported using the word `builtins` as to not arouse suspicion from whoever your trolling. It would be much to easy if it was called troll
+Also, this library is imported using the word `builtin`, very similar to pythons native module `builtins`, as to not arouse suspicion from whoever your trolling. It would be much to easy if it was called Trollpy
 
 ## ⚠️ Disclaimer
 
