@@ -1,4 +1,4 @@
-# Python Troll Library
+# Python Troll Library :trollface:
 
 Trollpy is a library purely for trolling others by overriding some built-in or common functions/classes seen within Python programs.
 
