@@ -44,3 +44,14 @@ Please use this just as a little bit of trolling, not for malicious intent, than
 ## 📔 Documentation
 
 Read the [wiki](https://github.com/zahtec/trollpy/wiki)
+
+## 📡 Contribution Guide
+
+Contributing to Trollpy is very welcome, but there are a few guidlines that come with it:
+
+- Contribute with the main provided template on github
+- Contribute functions and/or classes one at a time (Do not contribute 2 or more functions/classes at once)
+- Keep it in the same file ([troll.py](https://github.com/zahtec/trollpy/blob/main/builtin/troll.py)). I do not plan on modularizing this library
+- As long as you follow and fill everything out in the template, you should be fine
+
+This way contributing can be much faster and more standardized, you can go slightly off the template, but try to keep most of the fields there with your answers. Thank you for contributing!
