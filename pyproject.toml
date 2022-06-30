@@ -24,6 +24,7 @@ classifiers = [
     "Intended Audience :: Developers",
     "Natural Language :: English"
 ]
+packages = [{ include = "builtin" }]
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://github.com/zahtec/trollpy/issues"
